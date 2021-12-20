@@ -50,4 +50,16 @@ dogBtnElm2.addEventListener('click', function () {
     imgElm2.src = apiData2.message;
   })
 
+
+  // ③axiosを使用した書き方
+
+  // ◆手順
+  // 1 要素の取得（ボタン、画像）
+  // 2 ボタン要素のclickイベント作成（ボタンクリック後、API画像が表示される処理）
+  // 3 fetchメソッドでAPIを取得
+  // 4 jsonを呼び出す
+  // 5 画像要素の属性にAPIのURL（message）を代入
+
+  
+
 });
