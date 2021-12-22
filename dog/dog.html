@@ -4,33 +4,38 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="dog.css">
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <title>Dog_code</title>
 </head>
 <body>
 
 <div>①XMLHttpRequestを使用した書き方</div>
-<div>犬の名前
-  <input type="button" id="dog-btn" value="ボタン">
-</div><br>
+  <div>犬の名前
+    <input type="button" id="dog-btn" value="ボタン">
+  </div>
 
-<img src="#" alt="" id="image"><hr>
+  <div class="first-box">
+    <img id="image">
+  </div>
 
+<hr><div>②Fetchを使用した書き方</div>
+  <div>犬の名前
+    <input type="button" id="dog-btn2" value="ボタン">
+  </div>
 
-<div>②Fetchを使用した書き方</div>
-<div>犬の名前
-  <input type="button" id="dog-btn2" value="ボタン">
-</div><br>
+  <div class="second-box">
+    <img id="image2">
+  </div>
 
-<img src="#" alt="" id="image2"><hr>
+<hr><div>③axiosを使用した書き方</div>
+  <div>犬の名前
+    <input type="button" id="dog-btn3" value="ボタン">
+  </div>
 
-
-<div>③axiosを使用した書き方</div>
-<div>犬の名前
-  <input type="button" id="dog-btn3" value="ボタン">
-</div><br>
-
-<img src="#" alt="" id="image3">
+  <div class="third-box">
+    <img id="image3">
+  </div>
 
 <script src="dog.js"></script>
 </body>

@@ -1,0 +1,13 @@
+/* 初期状態（ボタンクリック前）で画像を表示する余白を設定 */
+.first-box, .second-box, .third-box {
+  width: 250px;
+  height: 250px;
+  margin-top: 10px;
+}
+
+/* 画像サイズ統一 */
+#image, #image2, #image3 {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
